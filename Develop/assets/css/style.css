@@ -1,74 +1,64 @@
-/* General Styles */
+/* General */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Header Section */
+/* Header */
 .header {
     background-color: #333;
     color: white;
-    padding: 15px;
+    padding: 20px;
 }
 
-/* Navigation Styles */
+/* Navigation */
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 /* Hero Section */
 .hero {
-    background-image: url('./assets/images/hero-image.jpg');
-    height: 400px;
+    background-image: url('../images/hero-image.jpg');
+    height: 300px;
     background-size: cover;
 }
 
 /* Main Content */
-.main {
+.content {
     padding: 20px;
 }
 
-/* Article Sections */
 .article {
     margin-bottom: 20px;
 }
 
 .float-left {
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 10px;
-}
-
-/* Sidebar/Benefit Styles */
+/* Benefits */
 .benefits {
-    background: #f2f2f2;
+    background-color: #f2f2f2;
     padding: 20px;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
-    /* Style for each benefit box */
-    padding: 10px;
-    margin: 5px;
-    background-color: #f2f2f2;
+.benefit {
+    padding: 20px;
+    margin: 10px 0;
 }
 
-/* Footer Section */
+/* Footer */
 .footer {
     background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
